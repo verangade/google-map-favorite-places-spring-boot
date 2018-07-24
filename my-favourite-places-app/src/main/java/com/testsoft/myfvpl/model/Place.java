@@ -12,11 +12,10 @@ import com.fasterxml.jackson.annotation.JsonAutoDetect;
 import com.fasterxml.jackson.annotation.JsonAutoDetect.Visibility;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
-@JsonIgnoreProperties({"hibernateLazyInitializer", "handler"})
-@JsonAutoDetect(fieldVisibility = Visibility.ANY)
+/*@JsonIgnoreProperties({"hibernateLazyInitializer", "handler"})
+@JsonAutoDetect(fieldVisibility = Visibility.ANY)*/
 @Entity
 public class Place implements Serializable{
-	
 	
 
 	@Id

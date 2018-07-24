@@ -8,7 +8,9 @@ insert into place(id,name,address,lat,lang,type) values(2,'NSBM Green University
 
 /** 6.237045, 80.054760 */
 
-insert into place(id,name,address,lat,lang,type) values(3,'Ambalangoda Bus Station','Ambalangoda Bus Station, A2, Ambalangoda',6.237045, 80.054760,'bus station');
+/** insert into place(id,name,address,lat,lang,type) values(3,'Ambalangoda Bus Station','Ambalangoda Bus Station, A2, Ambalangoda',6.237045, 80.054760,'bus station'); */
+
+insert into place(id,name,address,lat,lang,type) values(3,'Independence Arcade Commercial Complex','Independence Arcade Commercial Complex, Independence Avenue, Colombo',6.903153, 79.868917,'shopping');
 
 /** 6.879459, 79.859803 */
 
